@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xzsoft.system.mapper.SysUserDAO">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xzsoft.system.entity.SysUser">
+        <id column="SID" property="sid" />
+        <result column="USERCODE" property="usercode" />
+        <result column="USERNAME" property="username" />
+        <result column="PASSWORD" property="password" />
+        <result column="USERNUM" property="usernum" />
+        <result column="ORGID" property="orgid" />
+        <result column="DEPARTMENTID" property="departmentid" />
+        <result column="JOB" property="job" />
+        <result column="ENTRYDATE" property="entrydate" />
+        <result column="SEX" property="sex" />
+        <result column="BIRTHDAY" property="birthday" />
+        <result column="EDUBACKGROUND" property="edubackground" />
+        <result column="MOBILEPHONE" property="mobilephone" />
+        <result column="MOBILEPHONE2" property="mobilephone2" />
+        <result column="OFFICEPHONE" property="officephone" />
+        <result column="EMAIL" property="email" />
+        <result column="UAMID" property="uamid" />
+        <result column="REMARKS" property="remarks" />
+        <result column="STATE" property="state" />
+        <result column="ISADMIN" property="isadmin" />
+        <result column="CREATOR" property="creator" />
+        <result column="CREATETIME" property="createtime" />
+        <result column="MODIFIER" property="modifier" />
+        <result column="MODIFYTIME" property="modifytime" />
+        <result column="SPARAM01" property="sparam01" />
+        <result column="SPARAM02" property="sparam02" />
+        <result column="NPARAM01" property="nparam01" />
+        <result column="NPARAM02" property="nparam02" />
+        <result column="LASTLOGINTIME" property="lastlogintime" />
+        <result column="LOCKSTATE" property="lockstate" />
+        <result column="ISUSEIP" property="isuseip" />
+        <result column="IP" property="ip" />
+        <result column="CREATEORGID" property="createorgid" />
+    </resultMap>
+</mapper>

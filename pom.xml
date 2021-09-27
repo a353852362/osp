@@ -13,7 +13,7 @@
         <module>common</module>
         <module>business</module>
         <module>flow</module>
-        <module>untitled</module>
+        <module>account</module>
         <module>system</module>
     </modules>
 
@@ -71,6 +71,17 @@
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-generator</artifactId>
+            <version>3.3.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc8</artifactId>
+            <version>12.2.0.1</version>
         </dependency>
 
         <!-- fastjson -->
@@ -178,12 +189,6 @@
             <version>0.10.7</version>
         </dependency>
 
-        <!-- 图形验证码 -->
-        <dependency>
-            <groupId>com.github.whvcse</groupId>
-            <artifactId>easy-captcha</artifactId>
-            <version>1.6.2</version>
-        </dependency>
 
     </dependencies>
 
@@ -206,6 +211,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.2.2.RELEASE</version>
             </plugin>
         </plugins>
     </build>
