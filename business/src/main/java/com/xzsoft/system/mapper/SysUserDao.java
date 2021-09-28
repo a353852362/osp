@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @author xboV
  * @since 2021-09-27
  */
-public interface SysUserDAO extends BaseMapper<SysUser> {
+public interface SysUserDao extends BaseMapper<SysUser> {
 
 }

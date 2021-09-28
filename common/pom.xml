@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.xzsoft.platform</groupId>
+    <groupId>com.xzsoft</groupId>
     <artifactId>common</artifactId>
 
     <properties>

@@ -1,9 +1,9 @@
 package com.xzsoft.system.service.impl;
 
 import com.xzsoft.system.entity.SysUser;
-import com.xzsoft.system.mapper.SysUserDAO;
-import com.xzsoft.system.service.SysUserService;
+import com.xzsoft.system.mapper.SysUserDao;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.xzsoft.system.service.SysUserService;
 import org.springframework.stereotype.Service;
 
 /**
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2021-09-27
  */
 @Service
-public class SysUserServiceImpl extends ServiceImpl<SysUserDAO, SysUser> implements SysUserService {
+public class SysUserServiceImpl extends ServiceImpl<SysUserDao, SysUser> implements SysUserService {
 
 }

@@ -11,6 +11,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author xboV
  * @since 2021-09-27
  */
+
 public interface SysUserService extends IService<SysUser> {
 
 }

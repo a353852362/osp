@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import com.baomidou.mybatisplus.extension.activerecord.Model;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableField;
+import org.springframework.stereotype.Component;
+
 import java.io.Serializable;
 /**
  * <p>
@@ -14,6 +16,7 @@ import java.io.Serializable;
  * @since 2021-09-27
  */
 @TableName("SYS_USER")
+@Component
 public class SysUser extends Model<SysUser> {
 
     private static final long serialVersionUID = 1L;
