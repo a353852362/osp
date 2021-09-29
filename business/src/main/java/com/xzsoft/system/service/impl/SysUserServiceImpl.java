@@ -1,6 +1,6 @@
 package com.xzsoft.system.service.impl;
 
-import com.xzsoft.system.entity.SysUser;
+import com.xzsoft.entity.system.SysUser;
 import com.xzsoft.system.mapper.SysUserDao;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.xzsoft.system.service.SysUserService;

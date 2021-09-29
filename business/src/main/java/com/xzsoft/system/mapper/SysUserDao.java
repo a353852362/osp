@@ -1,6 +1,6 @@
 package com.xzsoft.system.mapper;
 
-import com.xzsoft.system.entity.SysUser;
+import com.xzsoft.entity.system.SysUser;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

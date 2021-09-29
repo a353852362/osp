@@ -3,7 +3,7 @@
 <mapper namespace="com.xzsoft.system.mapper.SysUserDao">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.xzsoft.system.entity.SysUser">
+    <resultMap id="BaseResultMap" type="com.xzsoft.entity.system.SysUser">
         <id column="SID" property="sid" />
         <result column="USERCODE" property="usercode" />
         <result column="USERNAME" property="username" />
